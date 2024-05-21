@@ -30,7 +30,7 @@ let task_5 = goods.filter((item) => item.count % 2 !== 0).length;
 console.log(task_5); // 2
 
 //6.Посчитайте количество элементов, имя которых начинается на “Т”
-let task_6 = goods.filter((item) => item.title.startsWith('Т')).length;
+let task_6 = goods.filter((item) => item.title.startsWith('T')).length;
 console.log(task_6); // 3
 
 //7.Проверьте, есть ли хотя бы один продукт с ценой выше 500.
@@ -44,7 +44,3 @@ console.log(task_8);
 //9.Создайте новый массив, изменив только 1 сво-во count на значение 0 для всех элементов (учитывая другие  сво-ва)
 const task_9 = goods.map((item) => ({ ...item, count: 0 }));
 console.log(task_9);
-
-
-
-
